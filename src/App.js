@@ -1,5 +1,6 @@
 import NewMessageForm from './NewMessageForm';
 
 export default function App() {
-  return <NewMessageForm />;
+  function handleSend() {}
+  return <NewMessageForm onSend={ handleSend }/>;
 }
